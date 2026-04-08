@@ -1,60 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Link Hub | Neon Split Premium</title>
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!-- Main Content Container: Split on desktop -->
-    <div class="main-wrapper">
-        <!-- Built-in vanilla tilt data-attributes -->
-        <div class="glass-panel" id="split-layout" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.1">
-            
-            <!-- Left Side: Profile Info -->
-            <aside id="profile-section" class="gsap-reveal left-column">
-                <div class="avatar-ring">
-                    <img id="avatar" src="avatar.png" alt="Profile Picture">
-                </div>
-                <div class="profile-text">
-                    <h1 id="user-name">Loading...</h1>
-                    <p id="user-bio">Just a moment...</p>
-                </div>
-            </aside>
-
-            <!-- Divider line (visible only on desktop) -->
-            <div class="divider"></div>
-
-            <!-- Right Side: Links -->
-            <section id="links-section" class="right-column">
-                <nav id="links-container" aria-label="Social Links">
-                    <!-- Links injected by JS -->
-                </nav>
-                <footer class="gsap-reveal">
-                    <p>&copy; <span id="current-year"></span> Link Hub. Neon Edition.</p>
-                </footer>
-            </section>
-            
-        </div>
-    </div>
-
-    <!-- Avatar Lightbox Overlay -->
-    <div id="avatar-modal" class="modal-overlay">
-        <img id="modal-image" src="" alt="Zoomed Profile">
-    </div>
-
-    <!-- Core Libraries -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
-    <!-- Custom Script -->
-    <script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React + TS</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
